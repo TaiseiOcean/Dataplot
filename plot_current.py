@@ -32,7 +32,7 @@ plt.figure(figsize=(8, 8))
 ax = plt.subplot(111, polar=True)
 ax.scatter(theta_rad, r, color='blue', marker='o')
 
-# 放射ラベルを 0.05〜0.75 に固定（0.00 は表示しない）
+# 放射ラベルを 0.02〜0.18 に固定（0.00 は表示しない）
 r_ticks = np.arange(0.02, 0.18, 0.02)
 r_labels = [f"{tick:.2f}" for tick in r_ticks]
 ax.set_yticks(r_ticks)
